@@ -7,7 +7,7 @@ if [[ $? -ne 0 ]] ; then
 fi
 sleep 0.1
 HEX=`greadlink -f _build/nrf51822_xxac.hex`
-du -b $HEX
+du -hd1 $HEX
 
 echo
 echo '============================= PROGRAMMING ============================='
