@@ -80,7 +80,7 @@ echo reset | nc localhost 4444
 
 ### Note:
 - ```nc``` is the "new" ```telnet``` in macOS, 
--  ```readlink``` is replaced by ```greadlink``` in macOS, thus the ```brew install coreutils``` is needed.
+- I used ```greadlink``` in macOS, thus the ```brew install coreutils``` is needed.
 
 ## Automatic make and programming scripts
 To use the automatic build scripts:
