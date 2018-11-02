@@ -1,5 +1,5 @@
-#define COMPILE_RIGHT
-//#define COMPILE_LEFT
+//#define COMPILE_RIGHT
+#define COMPILE_LEFT
 
 #include "piggu.h"
 #include "nrf_drv_config.h"
