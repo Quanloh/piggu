@@ -7,7 +7,7 @@
 
 // left hand pins
 
-#define L_LED 16
+#define L_LED 11
 
 #define L_S01 4
 #define L_S02 5
@@ -59,7 +59,7 @@
 
 // right hand pins
 
-#define R_LED 16
+#define R_LED 11
 
 #define R_S01 14
 #define R_S02 29
