@@ -78,7 +78,7 @@ echo flash write_image `greadlink -f precompiled-basic-left.hex` | nc localhost 
 echo reset | nc localhost 4444
 ```
 
-**Note:
+### Note:
 - ```nc``` is the "new" ```telnet``` in macOS, 
 -  ```readlink``` is replaced by ```greadlink``` in macOS, thus the ```brew install coreutils``` is needed.
 
